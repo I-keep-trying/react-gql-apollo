@@ -1,0 +1,139 @@
+{
+  "data": {
+    "products": {
+      "edges": [
+        {
+          "node": {
+            "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzMxNTMxODM1MDY1MTM=",
+            "createdAt": "2019-08-01T22:17:49Z",
+            "updatedAt": "2019-12-11T16:17:48Z",
+            "descriptionHtml": "you should buy this thing",
+            "description": "you should buy this thing",
+            "handle": "thing",
+            "productType": "",
+            "title": "thing",
+            "vendor": "dev-store9",
+            "publishedAt": "2019-08-02T17:35:05Z",
+            "onlineStoreUrl": "https://dev-store9.myshopify.com/products/thing",
+            "options": [
+              {
+                "name": "Size",
+                "values": ["mega", "super-mega", "ultimate-mega"],
+                "__typename": "ProductOption"
+              }
+            ],
+            "images": {
+              "pageInfo": {
+                "hasNextPage": false,
+                "hasPreviousPage": false,
+                "__typename": "PageInfo"
+              },
+              "edges": [
+                {
+                  "cursor": "eyJsYXN0X2lkIjoxMTU3MDU5MTIzNjE3NywibGFzdF92YWx1ZSI6MX0=",
+                  "node": {
+                    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTE1NzA1OTEyMzYxNzc=",
+                    "src": "https://cdn.shopify.com/s/files/1/0112/4181/6145/products/colorful-sun.jpg?v=1564697873",
+                    "altText": null,
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageEdge"
+                }
+              ],
+              "__typename": "ImageConnection"
+            },
+            "variants": {
+              "edges": [
+                {
+                  "cursor": "eyJsYXN0X2lkIjoyMzc2MTkwNTU0OTM5MywibGFzdF92YWx1ZSI6MX0=",
+                  "node": {
+                    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8yMzc2MTkwNTU0OTM5Mw==",
+                    "title": "mega",
+                    "price": "0.00",
+                    "weight": 0.0,
+                    "available": true,
+                    "sku": "",
+                    "compareAtPrice": null,
+                    "image": {
+                      "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTE1NzA1OTEyMzYxNzc=",
+                      "src": "https://cdn.shopify.com/s/files/1/0112/4181/6145/products/colorful-sun.jpg?v=1564697873",
+                      "altText": null,
+                      "__typename": "Image"
+                    },
+                    "selectedOptions": [
+                      {
+                        "name": "Size",
+                        "value": "mega",
+                        "__typename": "SelectedOption"
+                      }
+                    ],
+                    "__typename": "ProductVariant"
+                  },
+                  "__typename": "ProductVariantEdge"
+                },
+                {
+                  "cursor": "eyJsYXN0X2lkIjoyMzc2MTkwNTU4MjE2MSwibGFzdF92YWx1ZSI6Mn0=",
+                  "node": {
+                    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8yMzc2MTkwNTU4MjE2MQ==",
+                    "title": "super-mega",
+                    "price": "0.00",
+                    "weight": 0.0,
+                    "available": true,
+                    "sku": "",
+                    "compareAtPrice": null,
+                    "image": {
+                      "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTE1NzA1OTEyMzYxNzc=",
+                      "src": "https://cdn.shopify.com/s/files/1/0112/4181/6145/products/colorful-sun.jpg?v=1564697873",
+                      "altText": null,
+                      "__typename": "Image"
+                    },
+                    "selectedOptions": [
+                      {
+                        "name": "Size",
+                        "value": "super-mega",
+                        "__typename": "SelectedOption"
+                      }
+                    ],
+                    "__typename": "ProductVariant"
+                  },
+                  "__typename": "ProductVariantEdge"
+                },
+                {
+                  "cursor": "eyJsYXN0X2lkIjoyMzc2MTkwNTYxNDkyOSwibGFzdF92YWx1ZSI6M30=",
+                  "node": {
+                    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8yMzc2MTkwNTYxNDkyOQ==",
+                    "title": "ultimate-mega",
+                    "price": "0.00",
+                    "weight": 0.0,
+                    "available": true,
+                    "sku": "",
+                    "compareAtPrice": null,
+                    "image": {
+                      "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTE1NzA1OTEyMzYxNzc=",
+                      "src": "https://cdn.shopify.com/s/files/1/0112/4181/6145/products/colorful-sun.jpg?v=1564697873",
+                      "altText": null,
+                      "__typename": "Image"
+                    },
+                    "selectedOptions": [
+                      {
+                        "name": "Size",
+                        "value": "ultimate-mega",
+                        "__typename": "SelectedOption"
+                      }
+                    ],
+                    "__typename": "ProductVariant"
+                  },
+                  "__typename": "ProductVariantEdge"
+                }
+              ],
+              "__typename": "ProductVariantConnection"
+            },
+            "__typename": "Product"
+          },
+          "__typename": "ProductEdge"
+        }
+      ],
+      "__typename": "ProductConnection"
+    }
+  }
+}
